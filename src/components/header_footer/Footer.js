@@ -9,7 +9,7 @@ const Footer=()=>{
                 Barclays Center Concerts
                 </div>
                 <div className="footer_copyright">
-                Barclays Center Events. All rights reserved.
+                Barclays Center. All rights reserved.
                 </div>
             </Fade>
         </footer>
