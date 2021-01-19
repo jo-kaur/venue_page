@@ -1,5 +1,5 @@
 import React from 'react';
-import Fade from 'reacr-reveal/Fade';
+import Fade from 'react-reveal/Fade';
 
 const Footer=()=>{
     return(
