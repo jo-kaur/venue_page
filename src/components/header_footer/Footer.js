@@ -6,7 +6,7 @@ const Footer=()=>{
         <footer className="bck_red">
             <Fade delay={500}>
                 <div className="font_righteous footer_logo_venue">
-                Barclays Center Concerts
+                Barclays Center Music
                 </div>
                 <div className="footer_copyright">
                 Barclays Center. All rights reserved.
