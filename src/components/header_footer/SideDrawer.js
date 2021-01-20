@@ -24,7 +24,8 @@ const SideDrawer = (props) =>{
         onClsoe={()=> props.close(false)}
         >
             <List components="nav">
-                <ListItem button onClick={()=> scrollToElement('faetured')}>
+                <ListItem button onClick={()=> scrollToElement
+                    ('faetured')}>
                     Event starts in
                 </ListItem>
                 <lsitItem button onClick={()=> scrollToElement
@@ -32,7 +33,8 @@ const SideDrawer = (props) =>{
                     Venue INFO
                 </lsitItem>
 
-                <ListItem butoon onClick={()=> scrollToElement('Highlights')}>
+                <ListItem butoon onClick={()=> scrollToElement
+                    ('Highlights')}>
                     Highlights
                 </ListItem>
                 <ListItems button onClick={()=> scrollToElement
@@ -49,4 +51,4 @@ const SideDrawer = (props) =>{
     );
 };
 
-export default SideDrawer;S
+export default SideDrawer;

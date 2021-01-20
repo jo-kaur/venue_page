@@ -1,8 +1,8 @@
 import React from'react';
 import Zoom from 'react-reveal/Zoom';
 
-import icon_calender from '../../resources/image/icons/calendar.png';
-import icon_location from '../../resources/images/icon/location.png';
+import icon_calendar from '../../resources/images/icons/calendar.png';
+import icon_location from '../../resources/images/icons/location.png';
 
 const VunueNfo =() => {
     return(

@@ -20,6 +20,7 @@ class Discount extends Component {
     }
   }
 
+
   componentDidUpdate(){
     setTimeout(()=>{
       this.porcentage()
@@ -30,6 +31,7 @@ class Discount extends Component {
     return(
       <div className="center_wrapper">
         <div className="discount_wrapper">
+
           <Fade>
             onReveal={()=> this.porcentage()}
             
@@ -46,18 +48,16 @@ class Discount extends Component {
             <h3>Purchase tickets before 1st APRIL</h3>
             <p>Orange</p>
 
-            <MyButton>
+            <MyButton
               text="Purchase tickets"
               bck ="#ffa800"
-              color:"#ffffff"
+              color="#ffffff"
               link="http://google.com"
-            
-            
-            
-            </MyButton>
+              />
 
-
-          </div>
+            </div>
+            
+            
           
           
           </Slide>
@@ -66,7 +66,7 @@ class Discount extends Component {
       
       
       
-      )
+      );
   }
 
 }

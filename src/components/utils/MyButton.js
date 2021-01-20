@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from'@material-ui/core/Button'
 
-import Ticketicon from'../../resources/images/ticket.png';
+import Ticketicon from '../../resources/images/icons/ticket.png';
 
 const MyButton =(props)=> {
     return(
