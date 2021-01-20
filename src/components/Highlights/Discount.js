@@ -46,7 +46,7 @@ class Discount extends Component{
                             <h3>Purchase tickets before 1st APRIL</h3>
                             <p> place holder for text </p>
 
-                            <Mybutton
+                            <MyButton
                                 text="Purchase tickets"
                                 bck="#ffa800"
                                 color="#ffffff"
