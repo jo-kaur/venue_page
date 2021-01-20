@@ -48,7 +48,7 @@ const VenueNfo=()=>{
                                         Event Location
                                     </div>
                                     <div className="vn_desc">
-                                        put the location address here
+                                        620 Atlantic Ave, Brooklyn, NY 11217
                                     </div>
                                 </div>
                             </div>

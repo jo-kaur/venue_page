@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import MenuIcon from '@material-ui/core/Menu';
+import MenuIcon from '@material-ui/icons/Menu';
 import IconButton from '@material-ui/core/IconButton';
 
 import SideDrawer from './SideDrawer';
@@ -20,7 +20,7 @@ class Header extends Component{
 
 
     handleScroll=()=>{
-        if(window.scollY>0){
+        if(window.scrollY > 0){
             this.setState({
                 headerShow:true
             })
@@ -43,8 +43,7 @@ class Header extends Component{
             <AppBar
                 position="fixed"
                 style={{
-                    backgroundColor: this.state.headerShow ? '#2f2f2f':
-                    'transparent',
+                    backgroundColor: this.state.headerShow ? '#2f2f2f' : 'transparent',
                     boxShadow: 'none',
                     padding: '10px 0px'
                 }}
@@ -67,7 +66,7 @@ class Header extends Component{
                         </IconButton>
 
                         <SideDrawer
-                            open={this.drawerOpen}
+                            open={this.state.drawerOpen}
                             onClose={(value)=>this.toggleDrawer(value)}
                         />
                 </Toolbar>
