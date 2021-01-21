@@ -42,7 +42,7 @@ class Discount extends Component{
                     <Slide right>
                         <div className="discount_description">
                             <h3>Purchase tickets before 1st APRIL</h3>
-                            <p> place holder for text </p>
+                            <p> Be there to experience the history making Barclay Bash. With limited seating, get your hands on these tickets now. </p>
 
                             <MyButton
                                 text="Purchase tickets"

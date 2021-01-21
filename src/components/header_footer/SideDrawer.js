@@ -41,7 +41,7 @@ const SideDrawer=(props)=>{
                 </ListItem>
 
                 <ListItem button onClick={()=>scrollToElement('artistBios')}>
-                    Artist Bios
+                    Featured Artists
                 </ListItem>
 
                 <ListItem button onClick={()=>scrollToElement('location')}>
