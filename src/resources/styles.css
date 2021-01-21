@@ -299,6 +299,34 @@ footer ul li{
 }
 
 /*====================
+     ARTIST BIOS
+======================*/
+.artist_image {
+    background-size: cover !important;
+    height:400px;
+    width: 100%;
+}
+.artist_wrapper h3{
+    text-align: center;
+    color:#2c2c2c;
+    font-family: 'Merriweather', serif;
+    font-size: 55px;
+}
+.artist_desc h2{
+    text-align: left;
+    color:#0f19a5;
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+}
+.artist_desc{
+    color: #3273d6;
+    text-align: left;
+    font-family: 'Montserat', serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+/*====================
         PRICING
 ======================*/
 
@@ -391,7 +419,6 @@ footer ul li{
     margin: 20px;
     padding: 0px;
 }
-
 .faq-title {
     height: 50px;
     background-color: #282828;

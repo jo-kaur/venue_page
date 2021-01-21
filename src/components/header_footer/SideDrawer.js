@@ -29,7 +29,7 @@ const SideDrawer=(props)=>{
                 </ListItem>
 
                 <ListItem button onClick={()=>scrollToElement('venuenfo')}>
-                    Venue NFO
+                    Venue Info
                 </ListItem>
 
                 <ListItem button onClick={()=>scrollToElement('highlights')}>
@@ -38,6 +38,10 @@ const SideDrawer=(props)=>{
 
                 <ListItem button onClick={()=>scrollToElement('pricing')}>
                     Pricing
+                </ListItem>
+
+                <ListItem button onClick={()=>scrollToElement('artistBios')}>
+                    Artist Bios
                 </ListItem>
 
                 <ListItem button onClick={()=>scrollToElement('location')}>

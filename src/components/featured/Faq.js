@@ -24,21 +24,14 @@ function Faq() {
           </p>
         <h2 className="question">What are some nearby restaurants?</h2>
             <ul>
-              <center>
-                <a href="https://www.shakeshack.com/location/flatbush-ave-brooklyn/">
-                  <button class="restaurant-btn">Shake Shack<Restaurant></Restaurant></button>
-                </a>
-
-                <a href="https://altacalidadbk.com/">
-                  <button class="restaurant-btn">Alta Calidad<Restaurant></Restaurant></button>
-                </a>
-                
-                <a href="https://www.wasan-ny.com/">
-                  <button class="restaurant-btn">Wasan NY<Restaurant></Restaurant></button>
-                </a>
-            </center>
+            <Restaurant>
+              <li><a href="https://www.shakeshack.com/location/flatbush-ave-brooklyn/"><button class="restaurant">Shake Shack</button></a></li>
+              </Restaurant>
+              <li><a href="https://altacalidadbk.com/"><button class="restaurant-btn">Alta Calidad</button></a></li>
+              <li><a href="https://www.wasan-ny.com/"><button class="restaurant-btn">Wasan NY</button></a></li>
+              <li><a href="https://altacalidadbk.com/"><button class="restaurant-btn">Alta Calidad</button></a></li>
            </ul>
-    </div>
+        </div>
     </div>
   )
 }
