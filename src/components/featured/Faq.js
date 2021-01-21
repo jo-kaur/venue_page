@@ -1,10 +1,11 @@
 import React from 'react';
 /**  Import Icons  from resources/images/icons **/
-import RestaurantIcon from '@material-ui/icons/Restaurant';
+import Restaurant from '@material-ui/icons/Restaurant';
 function Faq() {
   return(
     <div>
       <h1 className="faq-title">FAQ</h1> 
+       <div className="faqFormat">
         <h2 className="question">How can I get to the entrance of Barclay's Center?</h2>
           <h3 className="question-section">Long Island Railroad</h3>
             <p className="answer">Take the LIRR to Atlantic Terminal (just 20 minutes from Jamaica), located across the street from Barclays Center.</p>
@@ -14,12 +15,12 @@ function Faq() {
             <p>G Train Fulton Street Station - Located on Fulton Street and Fort Greene Place</p>
         <h2 className="question">What are the security policies?</h2>
           <p>
-            All patrons, regardless of age, must have a ticket to enter the venue.
-            No outside food or drink, including water, may be brought into the venue*.
-            All persons and bags are subject to search.
-            The Barclay Center located in Brooklyn, New York is a tobacco-free venue.
-            The Barclay Center is a no re-entry venue.
-            Pets (Trained service animals or service animals in training with identifiable vests, harness, and leash will be allowed.)
+            <li>All patrons, regardless of age, must have a ticket to enter the venue.</li>
+            <li>No outside food or drink, including water, may be brought into the venue*.</li>
+            <li>All persons and bags are subject to search.</li>
+            <li>The Barclay Center located in Brooklyn, New York is a tobacco-free venue.</li>
+            <li>The Barclay Center is a no re-entry venue.</li>
+            <li>Pets (Trained service animals or service animals in training with identifiable vests, harness, and leash will be allowed.)</li>
           </p>
         <h2 className="question">What are some nearby restaurants?</h2>
             <ul>
