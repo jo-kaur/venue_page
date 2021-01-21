@@ -391,7 +391,7 @@ footer .footer_copyright {
     transition-duration: 0.4s;
     margin-bottom: 20px;
 }
-.restaurant-button:hover {
+.restaurant-btn:hover {
     background-color: #0D335D;
     color: #FFF3E6;
 }

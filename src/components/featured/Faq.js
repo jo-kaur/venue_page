@@ -25,7 +25,7 @@ function Faq() {
             <ul>
             <Restaurant>
               <li><a href="https://www.shakeshack.com/location/flatbush-ave-brooklyn/"><button class="restaurant">Shake Shack</button></a></li>
-            </Restaurant>
+              </Restaurant>
               <li><a href="https://altacalidadbk.com/"><button class="restaurant-btn">Alta Calidad</button></a></li>
               <li><a href="https://www.wasan-ny.com/"><button class="restaurant-btn">Wasan NY</button></a></li>
               <li><a href="https://altacalidadbk.com/"><button class="restaurant-btn">Alta Calidad</button></a></li>
