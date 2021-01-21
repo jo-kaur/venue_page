@@ -8,6 +8,7 @@ import VenueNfo from './components/venueNfo';
 import Highlight from './components/Highlights';
 import Pricing from './components/pricing';
 import Location from './components/location';
+import Faq from './components/featured/Faq';
 import Footer from './components/header_footer/Footer';
 import Faq from './components/featured/Faq';
 import Bios from './components/artistBios/Bios';
@@ -44,6 +45,10 @@ class App extends Component {
 
       <Element name="location">
       <Location/>
+      </Element>
+
+      <Element name="Faq">
+      <Faq/>
       </Element>
 
       <Footer/>

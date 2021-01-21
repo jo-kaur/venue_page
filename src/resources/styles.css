@@ -59,16 +59,41 @@ header .header_logo_title {
 ======================*/
 
 footer {
-    padding:50px 0px;
+    padding:30px 0px;
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
     color:#ffffff;
-    background: red;
+    background-color: #0C0032;
+}
+
+.font_righteous footer_logo_venue {
+    padding: 10px;
 }
 
 footer .footer_copyright {
     font-size: 18px;
+    text-align: center;
 }
+
+footer ul li{
+    list-style: none;
+    margin-left: 16px;
+}
+
+#fb:hover {
+    color: #3B5998;
+  }
+
+  #yt:hover {
+    color: #ff0000;
+  }
+
+  #tw:hover {
+    color: #4099FF;
+  }
+  #gh:hover {
+    color: #000000;
+  }
 
 /*====================
         CARROUSEL
@@ -387,15 +412,20 @@ footer .footer_copyright {
     text-align: center;
 }
 
-/* ==================== 
+/*====================
         FAQ    
-   ====================== */
+======================*/
+.faqFormat{
+    margin: 20px;
+    padding: 0px;
+}
 .faq-title {
     height: 50px;
     background-color: #0D335D;
     color: #FFF3E6;
     text-align: center;
     text-transform: capitalize;
+    padding-top: 10px;
 }
 .question {
     color: #0D335D;
@@ -408,18 +438,26 @@ footer .footer_copyright {
     text-align: left;
     font-size: 18px; 
 }
+
+li{
+    margin: 20px;
+    list-style-type: square;
+    padding-left: 20px;
+
+}
 .restaurant-btn {
     text-transform: uppercase;
     outline: none;
+    font-size: x-large;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 0;
     background-color: white;
-    padding: 12px;
+    padding: 15px;
     border-radius: 50px;
     transition-duration: 0.4s;
-    margin-bottom: 20px;
+    margin: 20px;
 }
-.restaurant-button:hover {
-    background-color: #0D335D;
+.restaurant-btn:hover {
+    background-color: green;
     color: #FFF3E6;
 }
