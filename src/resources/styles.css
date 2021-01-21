@@ -312,21 +312,22 @@ footer ul a{
 .artist_wrapper h3{
     text-align: center;
     color:#2c2c2c;
-    font-family: 'Merriweather', serif;
+    font-family: 'Hind', sans-serif;
     font-size: 55px;
 }
 .artist_desc h2{
     text-align: left;
-    color:#0f19a5;
-    font-family: 'Merriweather', serif;
-    font-size: 35px;
+    color:#3500D3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
 }
 .artist_desc{
-    color: #3273d6;
+    color: #000000;
     text-align: left;
-    font-family: 'Montserat', serif;
-    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     margin: 0;
+    padding-bottom: 15px;
 }
 
 /*====================
