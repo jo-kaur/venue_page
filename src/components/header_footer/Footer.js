@@ -7,7 +7,7 @@ const Footer=()=>{
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <Fade delay={500}>
                 <div className="font_righteous footer_logo_venue">
-                Barclays Center Music
+                Barclays Bash
                 </div>
                 <div className="footer_copyright">
                 Barclays Center. All rights reserved. Images courtesy of Google.

@@ -11,12 +11,12 @@ import Location from './components/location';
 import Faq from './components/faq/Faq';
 import Footer from './components/header_footer/Footer';
 import Bios from './components/artistBios/Bios';
-import Calendar from './components/calendar';
+//import Calendar from './components/calendar';
 
 class App extends Component {
   render(){
     return (
-      <div className="App" style={{height:"1500px",background:'cornflowerblue'}}>
+      <div className="App" style={{height:"1500px",background:'#0C0032'}}>
       <Header/>
 
       <Element name="featured">
@@ -27,7 +27,7 @@ class App extends Component {
       <VenueNfo/>
       </Element>
 
-      <Calendar />
+      {/* <Calendar /> */}
 
       <Element name="highlights">
       <Highlight/>

@@ -2,35 +2,32 @@ body {
     padding:0;
     margin:0;
     font-family: 'Roboto', sans-serif;
+    background-color: #0C0032;
 }
-
 .font_righteous {
     font-family: 'Hind', sans-serif;
 }
-
 .bck_black {
     background: #0C0032;
 }
 .bck_white {
-    background: #ffffff;
+    background: #FFFFFF;
 }
 .bck_red {
-    background: #ff4800;
+    background: #FF4800;
 }
 .bck_yellow {
-    background: #ffa800;
+    background: #FFA800;
 }
-
 .iconImage {
     width: 20px;
     margin-right: 10px;
 }
-
 .center_wrapper {
     width: 900px;
     margin:0 auto;
+    background-color: #0C0032;
 }
-
 
 /*====================
         HEADER
@@ -181,31 +178,26 @@ footer ul a{
     display: flex;
     padding: 170px 0px;
 }
-
 .vn_item {
     width:50%;
     color:#ffffff;
     text-align: center;
 }
-                      
 .vn_item .vn_outer {
     width: 300px;
     border: 2px solid #240090;
     margin: auto;
     padding: 5px;
 }
-
-.vn_item .vn_inner { 
+.vn_item .vn_inner {
     border: 2px solid #240090;
     position: relative;
     padding: 0px 20px;
     transition: all 500ms ease;
 }
-
 .vn_item .vn_inner:hover {
-    background: #3e3e3e;
+    background: #3E3E3E;
 }
-
 .vn_item .vn_icon_square {
     width: 100px;
     height: 100px;
@@ -216,7 +208,6 @@ footer ul a{
     top: -54px;
     left: 100px;
 }
-
 .vn_item .vn_icon {
     width: 50px;
     height: 50px;
@@ -226,14 +217,12 @@ footer ul a{
     top: -30px;
     left: 124px;
 }
-
 .vn_item .vn_title {
     font-size: 28px;
     margin: 90px 0px 20px 0px;
-    border-bottom: 1px solid #5d5d5d;
+    border-bottom: 1px solid #5D5D5D;
     padding-bottom: 10px;
 }
-
 .vn_item .vn_desc {
     font-size: 30px;
     font-weight: 300;
@@ -243,65 +232,88 @@ footer ul a{
 /*====================
         HIGHLIGHTS
 ======================*/
-
 .highlight_wrapper h2 {
     text-align: center;
     text-transform: uppercase;
+    /* background-color: #0C0032; */
     color: white;
     font-size: 52px;
 }
-
 .highlight_wrapper .highlight_description {
     line-height: 30px;
     font-size: 18px;
     font-weight: 300;
     border-top: 1px solid #240090;
-    border-bottom: 1px solid #240090
+    border-bottom: 1px solid #240090;
+    color: #FFFFFF;
     background-color: #0C0032;
     padding: 30px 0px;
 }
-
-.highlight_wrapper .highlight_description h4{
-    font-style:italic;
-}
-
 .discount_wrapper {
+    background-color: #0C0032;
+    color: white;
     display: flex;
     padding: 70px 0px;
 }
-
 .discount_wrapper .discount_porcentage {
     padding-right: 100px;
 }
-
 .discount_wrapper .discount_porcentage span:nth-child(1) {
-    color:#240090;
+    color: white;
     font-size: 125px;
     font-weight: 400;
     display: block;
     line-height: 120px;
 }
-
 .discount_wrapper .discount_porcentage span:nth-child(2) {
-    color: #240090;
+    color: white;
     font-size: 50px;
     font-weight: 400;
     display: block;
 }
-
-
 .discount_wrapper .discount_description h3 {
     font-size: 34px;
     font-weight: 100;
     margin: 0px;
-    color: #240090;
+    color: white;
 }
-
-.discount_wrapper .discount_description p { 
+.discount_wrapper .discount_description p {
     line-height: 30px;
     font-size: 18px;
     font-weight: 300;
-
+}
+/*====================
+     ARTIST BIOS
+======================*/
+.artist_image {
+    background-size: cover !important;
+    height:400px;
+    width: 100%;
+}
+.react-reveal artist_one{
+    background-color: #0C0032
+}
+.artist_wrapper h3{
+    text-align: center;
+    background-color: #240090;
+    color:white;
+    font-family: 'Merriweather', serif;
+    font-size: 55px;
+}
+.artist_desc h2{
+    text-align: left;
+    color:white;
+    background-color: #0C0032;
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+}
+.artist_desc{
+    color: white;
+    background-color: #0C0032;
+    text-align: left;
+    font-family: 'Montserat', serif;
+    font-size: 20px;
+    margin: 0;
 }
 
 /*====================
@@ -309,29 +321,33 @@ footer ul a{
 ======================*/
 .artist_image {
     background-size: cover !important;
-    background-position: center;
     height:400px;
     width: 100%;
 }
+.react-reveal artist_one{
+    background-color: #0C0032
+}
 .artist_wrapper h3{
     text-align: center;
-    color:#2c2c2c;
+    background-color: #0C0032;
+    color:white;
     font-family: 'Hind', sans-serif;
     font-size: 55px;
 }
 .artist_desc h2{
     text-align: left;
-    color:#3500D3;
+    color:white;
+    background-color: #240090;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
 }
 .artist_desc{
-    color: #000000;
+    color: white;
+    background-color: #0C0032;
     text-align: left;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0;
-    padding-bottom: 15px;
 }
 
 /*====================
@@ -410,7 +426,7 @@ footer ul a{
     width: 100%;
 }
 .location_tag div{
-    background: #282828;
+    background: #0C0032;
     color: #ffffff;
     text-transform: uppercase;
     width: 220px;
@@ -424,34 +440,48 @@ footer ul a{
         FAQ    
 ======================*/
 .faqFormat{
+    background-color: #0C0032;
+    color: #FFFFFF;
     margin: 20px;
     padding: 0px;
 }
-
 .faq-title {
     height: 50px;
-    background-color: #282828;
+    /* background-color: #282828; */
     color: white;
     text-align: center;
     text-transform: capitalize;
     padding-top: 10px;
 }
 .question {
-    color: #3500D3;
+    color: #FFFFFF;
     text-align: center;
     text-transform: capitalize;
     font-size: 20px;
 }
 .question-section,
 .answer {
+    color: #FFFFFF;
     text-align: left;
-    font-size: 18px; 
+    font-size: 18px;
 }
-
-li{
+.question-section,
+.answer2{
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 18px;
+}
+.question,
+.answer{
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 18px;
+}
+.li{
     margin: 20px;
     list-style-type: square;
     padding-left: 20px;
+    color: #FFFFFF;
 }
 .restaurant-btn {
     text-transform: uppercase;
