@@ -5,7 +5,7 @@ body {
 }
 
 .font_righteous {
-    font-family: 'Righteous', cursive;
+    font-family: 'Hind', sans-serif;
 }
 
 .bck_black {
@@ -73,9 +73,11 @@ footer .footer_copyright {
     font-size: 18px;
     text-align: center;
 }
-footer ul li{
-    list-style: none;
-    margin-left: 16px;
+
+footer ul a{
+    margin: 20px;
+    padding-right: 10px;
+    color: white;
 }
 
 #fb:hover {
@@ -450,11 +452,12 @@ li{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 0;
     background-color: white;
-    padding: 15px;
+    padding: 20px;
     border-radius: 50px;
     transition-duration: 0.4s;
     margin: 20px;
 }
+
 .restaurant-btn:hover {
     background-color: #3500D3;
     color: #FFF3E6;
