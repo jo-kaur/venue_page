@@ -10,7 +10,7 @@ body {
 }
 
 .bck_black {
-    background: #3c3c3c;
+    background: #0C0032;
 }
 .bck_white {
     background: #ffffff;
@@ -63,7 +63,7 @@ footer {
     text-align: center;
     font-size: 30px;
     color:#ffffff;
-    background-color: #0C0032;
+    background-color: #240090;
 }
 
 .font_righteous footer_logo_venue {
@@ -143,7 +143,7 @@ footer ul li{
 }
 
 .countdown_wrapper .countdown_top {
-    background: #ff4800;
+    background: #240090;
     font-size: 19px;
     padding: 10px;
     display: inline-block;
@@ -152,13 +152,13 @@ footer ul li{
 
 .countdown_wrapper .countdown_bottom {
     display: flex;
-    background: #d93d00;
+    background: #240090;
     padding: 10px 20px;
 }
 
 .countdown_wrapper .countdown_time {
     font-size: 70px;
-    border-right: 1px solid #F44336;
+    border-right: 1px solid #282828;
     margin-right: 14px;
     padding-right: 49px;
 }
@@ -189,13 +189,13 @@ footer ul li{
                       
 .vn_item .vn_outer {
     width: 300px;
-    border: 2px solid #828282;
+    border: 2px solid #240090;
     margin: auto;
     padding: 5px;
 }
 
 .vn_item .vn_inner { 
-    border: 2px solid #828282;
+    border: 2px solid #240090;
     position: relative;
     padding: 0px 20px;
     transition: all 500ms ease;
@@ -247,16 +247,16 @@ footer ul li{
 .highlight_wrapper h2 {
     text-align: center;
     text-transform: uppercase;
-    color:#2c2c2c;
-    font-size: 47px;
+    color: white;
+    font-size: 52px;
 }
 
 .highlight_wrapper .highlight_description {
     line-height: 30px;
     font-size: 18px;
     font-weight: 300;
-    border-top: 1px solid #dddddd;
-    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #240090;
+    border-bottom: 1px solid #240090;
     padding: 30px 0px;
 }
 
@@ -270,7 +270,7 @@ footer ul li{
 }
 
 .discount_wrapper .discount_porcentage span:nth-child(1) {
-    color: #ff4800;
+    color: white;
     font-size: 125px;
     font-weight: 400;
     display: block;
@@ -278,7 +278,7 @@ footer ul li{
 }
 
 .discount_wrapper .discount_porcentage span:nth-child(2) {
-    color: #2c2c2c;
+    color: white;
     font-size: 50px;
     font-weight: 400;
     display: block;
@@ -289,7 +289,7 @@ footer ul li{
     font-size: 34px;
     font-weight: 100;
     margin: 0px;
-    color: #2c2c2c;
+    color: white;
 }
 
 .discount_wrapper .discount_description p { 
@@ -355,14 +355,14 @@ footer ul li{
 }
 
 .pricing_wrapper .pricing_inner_wrapper {
-    border:2px solid #ffa800;
+    border:2px solid #240090;
     padding: 50px 20px;
 }
 
 .pricing_inner_wrapper .pricing_title {
     color: #ffffff;
     text-align: center;
-    border-bottom: 1px solid #ffa800;
+    border-bottom: 1px solid #240090;
     padding-bottom: 20px;
 }
 .pricing_inner_wrapper .pricing_title span:nth-child(1) {
@@ -402,7 +402,7 @@ footer ul li{
     width: 100%;
 }
 .location_tag div{
-    background: #2c2c2c;
+    background: #282828;
     color: #ffffff;
     text-transform: uppercase;
     width: 220px;
@@ -421,14 +421,14 @@ footer ul li{
 }
 .faq-title {
     height: 50px;
-    background-color: #0D335D;
-    color: #FFF3E6;
+    background-color: #282828;
+    color: white;
     text-align: center;
     text-transform: capitalize;
     padding-top: 10px;
 }
 .question {
-    color: #0D335D;
+    color: #3500D3;
     text-align: center;
     text-transform: capitalize;
     font-size: 20px;
@@ -458,6 +458,6 @@ li{
     margin: 20px;
 }
 .restaurant-btn:hover {
-    background-color: green;
+    background-color: #3500D3;
     color: #FFF3E6;
 }
