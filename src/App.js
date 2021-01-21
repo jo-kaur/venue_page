@@ -8,7 +8,9 @@ import VenueNfo from './components/venueNfo';
 import Highlight from './components/Highlights';
 import Pricing from './components/pricing';
 import Location from './components/location';
+import Faq from './components/faq/Faq';
 import Footer from './components/header_footer/Footer';
+import Bios from './components/artistBios/Bios';
 
 class App extends Component {
   render(){
@@ -32,8 +34,16 @@ class App extends Component {
       <Pricing/>
       </Element>
 
+      <Element name="artistBios">
+      <Bios/>
+      </Element>
+
       <Element name="location">
       <Location/>
+      </Element>
+
+      <Element name="faq">
+      <Faq/>
       </Element>
 
       <Footer/>
