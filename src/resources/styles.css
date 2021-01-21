@@ -47,10 +47,12 @@ header .header_logo {
 }
 header .header_logo_venue {
     font-size: 40px;
+    text-shadow: 2px 2px rgb(36, 33, 33);
 }
 
 header .header_logo_title {
     text-transform: uppercase;
+    text-shadow: 2px 2px rgb(36, 33, 33);
 }
 
 /*====================
@@ -273,7 +275,7 @@ footer ul a{
 }
 
 .discount_wrapper .discount_porcentage span:nth-child(1) {
-    color: white;
+    color:#240090;
     font-size: 125px;
     font-weight: 400;
     display: block;
@@ -281,7 +283,7 @@ footer ul a{
 }
 
 .discount_wrapper .discount_porcentage span:nth-child(2) {
-    color: white;
+    color: #240090;
     font-size: 50px;
     font-weight: 400;
     display: block;
@@ -292,7 +294,7 @@ footer ul a{
     font-size: 34px;
     font-weight: 100;
     margin: 0px;
-    color: white;
+    color: #240090;
 }
 
 .discount_wrapper .discount_description p { 
@@ -306,6 +308,7 @@ footer ul a{
 ======================*/
 .artist_image {
     background-size: cover !important;
+    background-position: center;
     height:400px;
     width: 100%;
 }

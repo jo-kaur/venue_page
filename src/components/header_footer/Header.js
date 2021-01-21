@@ -52,7 +52,7 @@ class Header extends Component{
                     
                     <div className="header_logo">
                         <div className="font_righteous header_logo_venue">
-                            Barclays Center Concerts
+                            Barclays Bash
                         </div>
                         <div className="header_logo_title">Concerts happening in the stadium</div>
                     </div>
