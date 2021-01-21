@@ -1,6 +1,6 @@
 import React from 'react';
 /**  Import Icons  from resources/images/icons **/
-import RestaurantIcon from '@material-ui/icons/Restaurant';
+import Restaurant from '@material-ui/icons/Restaurant';
 function Faq() {
   return(
     <div>
@@ -23,9 +23,8 @@ function Faq() {
           </p>
         <h2 className="question">What are some nearby restaurants?</h2>
             <ul>
-            <Restaurant>
-              <li><a href="https://www.shakeshack.com/location/flatbush-ave-brooklyn/"><button class="restaurant">Shake Shack</button></a></li>
-            </Restaurant>
+            <Restaurant></Restaurant>
+              <li><a href="https://www.shakeshack.com/location/flatbush-ave-brooklyn/"><button class="restaurant-btn">Shake Shack</button></a></li>
               <li><a href="https://altacalidadbk.com/"><button class="restaurant-btn">Alta Calidad</button></a></li>
               <li><a href="https://www.wasan-ny.com/"><button class="restaurant-btn">Wasan NY</button></a></li>
               <li><a href="https://altacalidadbk.com/"><button class="restaurant-btn">Alta Calidad</button></a></li>
