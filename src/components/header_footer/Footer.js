@@ -11,8 +11,7 @@ const Footer=()=>{
                 <div className="footer_copyright">
                 Barclays Center. All rights reserved. Images courtesy of Google.
                 </div>
-                <div>
-                    <ul>
+                    <ul className="socialtags">
                         <li><a href="https://twitter.com/?lang=en"><i id="tw" className="fa fa-twitter-square fa-2x"></i></a></li>
                         <li><a href="https://www.youtube.com/"><i id="yt" className="fa fa-youtube-square fa-2x"></i></a></li>
                         <li><a href="https://github.com/"><i id="gh" className="fa fa-github fa-2x"></i></a></li>
