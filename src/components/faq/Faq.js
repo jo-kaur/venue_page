@@ -38,7 +38,7 @@ function Faq() {
                 </a>
 
                 <a href="https://www.wasan-ny.com/">
-                  <button class="restaurant-btn">Wasan NY<Restaurant></Restaurant></button>
+                  <button class="restaurant-btn">Wasan NY <Restaurant></Restaurant></button>
                 </a>
               </center>
            </ul>
