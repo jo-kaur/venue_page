@@ -9,6 +9,8 @@ import Highlight from './components/Highlights';
 import Pricing from './components/pricing';
 import Location from './components/location';
 import Footer from './components/header_footer/Footer';
+import Faq from './components/featured/Faq';
+import Bios from './components/artistBios/Bios';
 
 class App extends Component {
   render(){
@@ -30,6 +32,14 @@ class App extends Component {
 
       <Element name="pricing">
       <Pricing/>
+      </Element>
+
+      <Element name="artistBios">
+      <Bios/>
+      </Element>
+      
+      <Element name="faq">
+      <Faq/>
       </Element>
 
       <Element name="location">

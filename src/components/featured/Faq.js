@@ -1,6 +1,6 @@
 import React from 'react';
 /**  Import Icons  from resources/images/icons **/
-import RestaurantIcon from '@material-ui/icons/Restaurant';
+import Restaurant from '@material-ui/icons/Restaurant';
 function Faq() {
   return(
     <div>
