@@ -358,3 +358,40 @@ footer .footer_copyright {
     padding: 15px 20px;
     text-align: center;
 }
+
+====================
+        FAQ    
+======================
+.faq-title {
+    height: 50px;
+    background-color: #0D335D;
+    color: #FFF3E6;
+    text-align: center;
+    text-transform: capitalize;
+}
+.question {
+    color: #0D335D;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.question-section,
+.answer {
+    text-align: left;
+    font-size: 18px; 
+}
+.restaurant-btn {
+    text-transform: uppercase;
+    outline: none;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0;
+    background-color: white;
+    padding: 12px;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+    margin-bottom: 20px;
+}
+.restaurant-button:hover {
+    background-color: #0D335D;
+    color: #FFF3E6;
+}
