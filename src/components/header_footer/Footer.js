@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 
 const Footer=()=>{
     return(
-        <footer className="bck_red">
+        <footer>
             <Fade delay={500}>
                 <div className="font_righteous footer_logo_venue">
                 Barclays Center Music
@@ -18,6 +18,7 @@ const Footer=()=>{
                         <li><a href="https://www.facebook.com/"><i id="fb" className="fa fa-facebook-square fa-2x"></i></a></li>
                         {/* <li><a href="https://www.instagram.com/"><i id="ig" class="fab fa-instagram fa-2x"></i></a></li> */}
                     </ul>
+               </div>
             </Fade>
         </footer>
     );

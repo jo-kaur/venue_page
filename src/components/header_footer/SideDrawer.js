@@ -1,5 +1,5 @@
 import React from 'react';
-import{scroller} from 'react-scroll';
+import {scroller} from 'react-scroll';
 
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
@@ -29,7 +29,7 @@ const SideDrawer=(props)=>{
                 </ListItem>
 
                 <ListItem button onClick={()=>scrollToElement('venuenfo')}>
-                    Venue NFO
+                    Venue Info
                 </ListItem>
 
                 <ListItem button onClick={()=>scrollToElement('highlights')}>
@@ -38,6 +38,10 @@ const SideDrawer=(props)=>{
 
                 <ListItem button onClick={()=>scrollToElement('pricing')}>
                     Pricing
+                </ListItem>
+
+                <ListItem button onClick={()=>scrollToElement('artistBios')}>
+                    Artist Bios
                 </ListItem>
 
                 <ListItem button onClick={()=>scrollToElement('location')}>
