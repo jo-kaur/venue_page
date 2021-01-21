@@ -243,7 +243,6 @@ footer ul li{
         HIGHLIGHTS
 ======================*/
 
-
 .highlight_wrapper h2 {
     text-align: center;
     text-transform: uppercase;
@@ -256,7 +255,8 @@ footer ul li{
     font-size: 18px;
     font-weight: 300;
     border-top: 1px solid #240090;
-    border-bottom: 1px solid #240090;
+    border-bottom: 1px solid #240090
+    background-color: #0C0032;
     padding: 30px 0px;
 }
 
@@ -296,6 +296,7 @@ footer ul li{
     line-height: 30px;
     font-size: 18px;
     font-weight: 300;
+
 }
 
 /*====================
@@ -443,7 +444,6 @@ li{
     margin: 20px;
     list-style-type: square;
     padding-left: 20px;
-
 }
 .restaurant-btn {
     text-transform: uppercase;
