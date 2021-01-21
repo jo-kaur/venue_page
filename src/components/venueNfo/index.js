@@ -25,7 +25,9 @@ const VenueNfo=()=>{
                                         Event Date & Time
                                     </div>
                                     <div className="vn_desc">
-                                        1 April 2021 @13.05 pm
+                                        April 1st 2021,
+                                        April 2nd 2021 
+                                        starting at 6pm
                                     </div>
                                 </div>
                             </div>

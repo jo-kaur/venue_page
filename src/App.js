@@ -8,9 +8,8 @@ import VenueNfo from './components/venueNfo';
 import Highlight from './components/Highlights';
 import Pricing from './components/pricing';
 import Location from './components/location';
-import Faq from './components/featured/Faq';
+import Faq from './components/faq/Faq';
 import Footer from './components/header_footer/Footer';
-//import Faq from './components/featured/Faq';
 import Bios from './components/artistBios/Bios';
 
 class App extends Component {
@@ -38,16 +37,12 @@ class App extends Component {
       <Element name="artistBios">
       <Bios/>
       </Element>
-      
-      <Element name="faq">
-      <Faq/>
-      </Element>
 
       <Element name="location">
       <Location/>
       </Element>
 
-      <Element name="Faq">
+      <Element name="faq">
       <Faq/>
       </Element>
 

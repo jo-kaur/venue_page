@@ -12,7 +12,7 @@ function Bios(){
     return(
             <div className="center_wrapper">
                 <div className="artist_wrapper">
-                <h3>Artist Bios</h3>
+                <h3>Featured Artists</h3>
                 <Slide up>
                     <div className="artist_one">
                         <div className="artist_image"
