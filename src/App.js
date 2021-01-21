@@ -10,7 +10,7 @@ import Pricing from './components/pricing';
 import Location from './components/location';
 import Faq from './components/featured/Faq';
 import Footer from './components/header_footer/Footer';
-import Faq from './components/featured/Faq';
+//import Faq from './components/featured/Faq';
 import Bios from './components/artistBios/Bios';
 
 class App extends Component {
