@@ -1,4 +1,3 @@
-
 body {
     padding:0;
     margin:0;
@@ -74,7 +73,6 @@ footer .footer_copyright {
     font-size: 18px;
     text-align: center;
 }
-
 footer ul li{
     list-style: none;
     margin-left: 16px;
@@ -94,11 +92,10 @@ footer ul li{
   #gh:hover {
     color: #000000;
   }
-
+  
 /*====================
         CARROUSEL
 ======================*/
-
 
 .carrousel_wrapper {
     height:700px;
@@ -419,6 +416,7 @@ footer ul li{
     margin: 20px;
     padding: 0px;
 }
+
 .faq-title {
     height: 50px;
     background-color: #282828;
@@ -461,3 +459,4 @@ li{
     background-color: #3500D3;
     color: #FFF3E6;
 }
+
