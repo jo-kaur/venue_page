@@ -48,6 +48,11 @@ const SideDrawer=(props)=>{
                     Location
                 </ListItem>
 
+                <ListItem button onClick={()=>scrollToElement('faq')}>
+                    FAQ
+                </ListItem>
+                
+
             </List>
         </Drawer>
     );
