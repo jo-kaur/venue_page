@@ -27,10 +27,11 @@ function Faq() {
           </p>
 
         <h2 className="question">What are some nearby restaurants?</h2>
-            <ul>
+        </div>
+          <ul>
               <center>
                 <a href="https://www.shakeshack.com/location/flatbush-ave-brooklyn/">
-                  <button class="restaurant-btn">Shake Shack <Restaurant></Restaurant></button>
+                  <button class="restaurant-btn" size="sm">Shake Shack <Restaurant></Restaurant></button>
                 </a>
 
                 <a href="https://altacalidadbk.com/">
@@ -42,8 +43,6 @@ function Faq() {
                 </a>
               </center>
            </ul>
-           
-      </div>
   </div>
   )
 }

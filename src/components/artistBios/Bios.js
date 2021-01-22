@@ -14,8 +14,7 @@ function Bios(){
                 <div className="artist_wrapper">
                 <h3>Featured Artists</h3>
                 <Slide up>
-                    <div className="artist_one">
-                        <center>
+                    <div className="artist">
                         <div className="artist_image" 
                             style={{
                                 background: `url(${shawn})`,
@@ -24,7 +23,6 @@ function Bios(){
                                 position:'relative'
                             }}
                         ></div>
-                        </center> 
                         <div className="artist_desc">
                             <h2>Shawn Mendes</h2>
                             <p>
@@ -35,8 +33,7 @@ function Bios(){
                         </div>
                     </div>   
 
-                    <div className="artist_two">
-                        <center>
+                    <div className="artist">
                         <div className="artist_image"
                             style={{
                                 background: `url(${bts})`,
@@ -45,7 +42,6 @@ function Bios(){
                                 position:'relative'
                             }}
                         ></div>
-                        </center>
                         <div className="artist_desc">
                             <h2>BTS</h2>
                             <p>
@@ -56,8 +52,7 @@ function Bios(){
                         </div>
                     </div>
 
-                    <div className="artist_three">
-                        <center>
+                    <div className="artist">
                         <div className="artist_image"
                             style={{
                                 background: `url(${khalid})`,
@@ -66,7 +61,6 @@ function Bios(){
                                 position:'relative'
                             }}
                         ></div>
-                        </center>
                         <div className="artist_desc">
                             <h2>Khalid</h2>
                             <p>
@@ -77,8 +71,7 @@ function Bios(){
                         </div>
                     </div>
 
-                    <div className="artist_four">
-                        <center>
+                    <div className="artist">
                         <div className="artist_image"
                             style={{
                                 background: `url(${postMalone})`,
@@ -87,7 +80,6 @@ function Bios(){
                                 position:'relative'
                             }}
                         ></div>
-                        </center>
                         <div className="artist_desc">
                             <h2>Post Malone</h2>
                             <p>
@@ -98,8 +90,7 @@ function Bios(){
                         </div>
                     </div>
 
-                    <div className="artist_five">
-                        <center>
+                    <div className="artist">
                         <div className="artist_image"
                             style={{
                                 background: `url(${doja})`,
@@ -108,7 +99,6 @@ function Bios(){
                                 position:'relative'
                             }}
                         ></div>
-                        </center>
                         <div className="artist_desc">
                             <h2>Doja Cat</h2>
                             <p>
@@ -119,8 +109,7 @@ function Bios(){
                         </div>
                     </div>
 
-                    <div className="artist_six">
-                        <center>
+                    <div className="artist">
                         <div className="artist_image"
                             style={{
                                 background: `url(${megan})`,
@@ -129,7 +118,6 @@ function Bios(){
                                 position:'relative'
                             }}
                         ></div>
-                        </center>
                         <div className="artist_desc">
                             <h2>Megan Thee Stallion</h2>
                             <p>
