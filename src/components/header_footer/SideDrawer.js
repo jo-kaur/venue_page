@@ -29,7 +29,7 @@ const SideDrawer=(props)=>{
                 </ListItem>
 
                 <ListItem button onClick={()=>scrollToElement('venuenfo')}>
-                    Venue NFO
+                    Venue Info
                 </ListItem>
 
                 <ListItem button onClick={()=>scrollToElement('highlights')}>
@@ -40,9 +40,18 @@ const SideDrawer=(props)=>{
                     Pricing
                 </ListItem>
 
+                <ListItem button onClick={()=>scrollToElement('artistBios')}>
+                    Featured Artists
+                </ListItem>
+
                 <ListItem button onClick={()=>scrollToElement('location')}>
                     Location
                 </ListItem>
+
+                <ListItem button onClick={()=>scrollToElement('faq')}>
+                    FAQ
+                </ListItem>
+                
 
             </List>
         </Drawer>

@@ -8,13 +8,15 @@ import VenueNfo from './components/venueNfo';
 import Highlight from './components/Highlights';
 import Pricing from './components/pricing';
 import Location from './components/location';
-import Faq from './components/featured/Faq';
+import Faq from './components/faq/Faq';
 import Footer from './components/header_footer/Footer';
+import Bios from './components/artistBios/Bios';
+import Calendar from './components/calendar';
 
 class App extends Component {
   render(){
     return (
-      <div className="App" style={{height:"1500px",background:'cornflowerblue'}}>
+      <div className="App" style={{height:"1500px",background:'#0C0032'}}>
       <Header/>
 
       <Element name="featured">
@@ -25,6 +27,8 @@ class App extends Component {
       <VenueNfo/>
       </Element>
 
+       <Calendar /> 
+
       <Element name="highlights">
       <Highlight/>
       </Element>
@@ -33,11 +37,15 @@ class App extends Component {
       <Pricing/>
       </Element>
 
+      <Element name="artistBios">
+      <Bios/>
+      </Element>
+
       <Element name="location">
       <Location/>
       </Element>
 
-      <Element name="Faq">
+      <Element name="faq">
       <Faq/>
       </Element>
 

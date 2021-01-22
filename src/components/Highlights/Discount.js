@@ -1,4 +1,3 @@
-import { AssignmentReturnRounded } from '@material-ui/icons';
 import React,{Component} from 'react';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
@@ -11,7 +10,6 @@ class Discount extends Component{
         discountStart:0,
         discountEnd:30
     }
-
 
     porcentage=()=>{
         if(this.state.discountStart<this.state.discountEnd){
@@ -44,18 +42,17 @@ class Discount extends Component{
                     <Slide right>
                         <div className="discount_description">
                             <h3>Purchase tickets before 1st APRIL</h3>
-                            <p> place holder for text </p>
+                            <p> Be there to experience the history making Barclay Bash. With limited seating, get your hands on these tickets now. </p>
 
                             <MyButton
                                 text="Purchase tickets"
                                 bck="#ffa800"
                                 color="#ffffff"
                                 link="http://google.com"
-                                />
+                            />
 
                         </div>
                     </Slide>
-
 
 
                 </div>

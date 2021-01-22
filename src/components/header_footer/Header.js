@@ -43,7 +43,7 @@ class Header extends Component{
             <AppBar
                 position="fixed"
                 style={{
-                    backgroundColor: this.state.headerShow ? '#2f2f2f' : 'transparent',
+                    backgroundColor: this.state.headerShow ? '#240090' : 'transparent',
                     boxShadow: 'none',
                     padding: '10px 0px'
                 }}
@@ -52,7 +52,7 @@ class Header extends Component{
                     
                     <div className="header_logo">
                         <div className="font_righteous header_logo_venue">
-                            Barclays Center Concerts
+                            Barclays Bash
                         </div>
                         <div className="header_logo_title">Concerts happening in the stadium</div>
                     </div>
