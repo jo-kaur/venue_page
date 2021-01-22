@@ -90,26 +90,7 @@ footer ul a{
 .carrousel_image {
     background-size: cover !important;
 }
-.artist_name {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    height: 160px;
-    -webkit-transform: translate(-50%, -50%);  
-    transform: translate(-50%, -50%);   
-    border: 2px solid white;
-}
-.artist_name .wrapper {
-    border: 2px solid white;
-    height: 121px;
-    margin: 6px;
-    text-align: center;
-    color: #fff;
-    font-size: 40px;
-    padding: 21px 70px 0px 70px;
-    text-transform: uppercase;
-}
+
 /*====================
         COUNTDOWN
 ======================*/
@@ -210,6 +191,7 @@ footer ul a{
     /* background-color: #0C0032; */
     color: white;
     font-size: 52px;
+    text-shadow: 1px 1px #240090;
 }
 .highlight_wrapper .highlight_description {
     line-height: 30px;
@@ -232,6 +214,7 @@ footer ul a{
 }
 .discount_wrapper .discount_porcentage span:nth-child(1) {
     color: white;
+    text-shadow: 2px 2px #ff9901;
     font-size: 125px;
     font-weight: 400;
     display: block;
@@ -260,13 +243,14 @@ footer ul a{
 ======================*/
 .artist_wrapper{
     display: relative;
-    padding-bottom: 20px;
+    padding: 0px 200px 0px 150px;
 }
 .artist {
     width: 100%;
     display: flex;
     justify-content: space-around;
     margin: 15px;
+    padding-bottom: 10px;
 }
 .artist_image {
     background-size: cover !important;
@@ -275,6 +259,7 @@ footer ul a{
     border-radius: 50%;
     border-style: solid;
     border-color: rgb(8, 8, 94);
+    padding: 5px 10px 5px 10px;
 }
 .artist_desc{
     color: white;
@@ -282,26 +267,35 @@ footer ul a{
     text-align: center;
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 20px;
+    padding-top: 20px;
     padding-bottom: 10px;
     width:40%;
     margin: 0;
 }
-/* .react-reveal artist_one{
-    background-color: #0C0032;
-    display: flex;
-} */
 .artist_wrapper h3{
     text-align: center;
     background-color: #0C0032;
     color:white;
     font-family: 'Hind', sans-serif;
     font-size: 55px;
+    text-shadow: 1px 1px #240090;
 }
-.artist_desc h2{
+.artist_desc h2 a{
+    text-decoration: none;
+    color:white;
+}
+.artist_desc h2 a:hover{
+    color:turquoise;
+}
+.artist_desc h2 a::after{
+    text-decoration: none;
+    color:white;
+}
+.artist_desc h2 {
     text-align: center;
     color:white;
     background-color: #240090;
-    border-radius: 20%;
+    border-radius: 15%;
     font-family: 'Roboto', sans-serif;
     font-size: 35px;
 }
@@ -313,6 +307,7 @@ footer ul a{
 }
 .pricing_section h2 {
     color: #ffffff;
+    text-shadow: 1px 1px #240090;
     text-transform: uppercase;
     text-align: center;
     font-size: 50px;
@@ -373,6 +368,7 @@ footer ul a{
     background: #0C0032;
     border-radius: 15px;
     color: #ffffff;
+    text-shadow: 1px 1px #240090;
     text-transform: uppercase;
     width: 220px;
     margin: 0 auto;
@@ -394,6 +390,7 @@ footer ul a{
     height: 50px;
     /* background-color: #282828; */
     color: white;
+    text-shadow: 1px 1px #240090;
     text-align: center;
     text-transform: capitalize;
     padding-top: 10px;
