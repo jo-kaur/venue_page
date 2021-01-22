@@ -17,11 +17,19 @@ export default class Calendar extends React.Component {
         //     padding: '10px 0px'
         // }}
         events={[
-          { title: 'Shawn Mendes', start: '2021-03-31 19:30', end:'2021-03-31 22:00'},
-          { title: 'BTS', start: '2021-04-01 19:30', end:'2021-04-01 22:00' },
-          { title: 'Post Malone', start: '2021-04-02 19:30', end:'2021-04-02 22:00' },
-          { title: 'Doja Cat', start: '2021-04-03 19:30', end:'2021-04-03 22:00' },
-          { title: 'Megan Thee Stallion', start: '2021-04-04 19:30', end:'2021-04-04 22:00' }
+          { title: 'Shawn Mendes, BTS and Doja Cat', start: '2021-03-31 18:00', end:'2021-03-31 22:00'},
+          { title: 'Post Malone, Doja Cat and Megan Thee Stallion', start: '2021-04-01 18:00', end:'2021-04-01 22:00' },
+          { title: 'April Fools Comedy Jam', start: '2021-04-02 19:30', end:'2021-04-02 22:00' },
+          { title: 'BROOKLYN NETS VS. MIAMI HEAT', start: '2021-01-23 10:30', end:'2021-01-23 13:00' },
+          { title: 'BROOKLYN NETS VS. MIAMI HEAT', start: '2021-01-25 9:00', end:'2021-01-25 12:00' },
+          { title: 'BROOKLYN NETS VS. LOS ANGELES CLIPPERS', start: '2021-02-02 15:00', end:'2021-02-02 18:00' },
+          { title: 'BROOKLYN NETS VS. LOS ANGELES CLIPPERS', start: '2021-02-05 15:00', end:'2021-02-05 18:00' },
+          { title: 'BROOKLYN NETS VS. TORONTO RAPTORS', start: '2021-02-10 15:00', end:'2021-02-10 18:00' },
+          { title: 'BROOKLYN NETS VS. TORONTO RAPTORS', start: '2021-02-23 16:00', end:'2021-02-23 19:00' },
+          { title: 'BROOKLYN NETS VS. SACRAMENTO KINGS', start: '2021-02-25 15:00', end:'2021-02-25 18:00' },
+          { title: 'BROOKLYN NETS VS. DALLAS MAVERICKS', start: '2021-02-27 15:00', end:'2021-02-27 19:00' },
+          { title: '2021 ATLANTIC 10 MENS BASKETBALL CHAMPIONSHIP', start: '2021-03-10 15:00', end:'2021-03-14 19:00' },
+          { title: 'Soda Stereo', start: '2021-04-09 15:00', end:'2021-04-09 19:00' }
          ]}
       />
       </div>
