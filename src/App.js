@@ -11,7 +11,7 @@ import Location from './components/location';
 import Faq from './components/faq/Faq';
 import Footer from './components/header_footer/Footer';
 import Bios from './components/artistBios/Bios';
-//import Calendar from './components/calendar';
+import Calendar from './components/calendar';
 
 class App extends Component {
   render(){
@@ -27,7 +27,7 @@ class App extends Component {
       <VenueNfo/>
       </Element>
 
-      {/* <Calendar /> */}
+       <Calendar /> 
 
       <Element name="highlights">
       <Highlight/>

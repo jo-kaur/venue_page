@@ -176,7 +176,7 @@ footer ul a{
 
 .vn_wrapper {
     display: flex;
-    padding: 170px 0px;
+    padding: 170px 0px 0px 0px;
 }
 .vn_item {
     width:50%;
@@ -335,7 +335,7 @@ footer ul a{
     font-size: 55px;
 }
 .artist_desc h2{
-    text-align: left;
+    text-align: center;
     color:white;
     background-color: #240090;
     font-family: 'Roboto', sans-serif;
@@ -347,6 +347,7 @@ footer ul a{
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    padding-bottom: 10px;
     margin: 0;
 }
 
@@ -355,7 +356,7 @@ footer ul a{
 ======================*/
 
 .pricing_section {
-    padding: 70px 0px;
+    padding: 10px 0px;
 }
 
 
@@ -443,7 +444,7 @@ footer ul a{
     background-color: #0C0032;
     color: #FFFFFF;
     margin: 20px;
-    padding: 0px;
+    padding-left: 100px;
 }
 .faq-title {
     height: 50px;
@@ -501,3 +502,9 @@ footer ul a{
     color: #FFF3E6;
 }
 
+.calendar{
+    background-color: white;
+    border-radius: 25px;
+    margin: 50px;
+    padding:20px;
+}
