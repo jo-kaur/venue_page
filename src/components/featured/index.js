@@ -10,7 +10,7 @@ const Featured=()=>{
 
             <div className="event_name">
                 <div className="wrapper">
-                    Opening Day
+                    {/* Opening Day  */}
                 </div>
             </div>
 
