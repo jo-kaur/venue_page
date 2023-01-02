@@ -1,7 +1,7 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
 
-const Description=()=>{
+function Description() {
     return(
         <Fade>
             <div className='center_wrapper'>
