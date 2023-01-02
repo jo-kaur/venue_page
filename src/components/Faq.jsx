@@ -5,7 +5,6 @@ function Faq() {
   return(
     <div>
       <h1 className='faq-title'>FAQ</h1> 
-
        <div className='faqFormat'>
         <h2 className='question'>How can I get to the entrance of Barclay's Center?</h2>
           <h3 className='question-section'>Long Island Railroad</h3>
@@ -14,7 +13,6 @@ function Faq() {
             <p>Atlantic Terminal-Barclays Center - Located on Atlantic Avenue and Flatbush Avenue</p>
             <p>C Train Lafayette Avenue Station - Located on Fulton Street and South Portland Avenue</p>
             <p>G Train Fulton Street Station - Located on Fulton Street and Fort Greene Place</p>
-
         <h2 className='question'>What are the security policies?</h2>
           <p>
             <li>All patrons, regardless of age, must have a ticket to enter the venue.</li>
@@ -24,7 +22,6 @@ function Faq() {
             <li>The Barclay Center is a no re-entry venue.</li>
             <li>Pets (Trained service animals or service animals in training with identifiable vests, harness, and leash will be allowed.)</li>
           </p>
-
         <h2 className='question'>What are some nearby restaurants?</h2>
         </div>
           <ul>
@@ -32,11 +29,9 @@ function Faq() {
                 <a href='https://www.shakeshack.com/location/flatbush-ave-brooklyn/'>
                   <button class='restaurant-btn' size='sm'>Shake Shack <Restaurant></Restaurant></button>
                 </a>
-
                 <a href='https://altacalidadbk.com/'>
                   <button class='restaurant-btn'>Alta Calidad <Restaurant></Restaurant></button>
                 </a>
-
                 <a href='https://www.wasan-ny.com/'>
                   <button class='restaurant-btn'>Wasan NY <Restaurant></Restaurant></button>
                 </a>
