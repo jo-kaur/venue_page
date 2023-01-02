@@ -1,28 +1,26 @@
 import React from 'react'
 import Slide from 'react-reveal/Slide'
+import Bts from '../../resources/images/artists/bts.jpg'
+import Khalid from '../../resources/images/artists/khalid.jpg'
+import PostMalone from '../../resources/images/artists/postMalone.jpg'
+import Shawn from '../../resources/images/artists/shawn.jpg'
+import Doja from '../../resources/images/artists/doja.jpg'
+import Megan from '../../resources/images/artists/megan.jpg'
 
-import bts from '../../resources/images/artists/bts.jpg'
-import khalid from '../../resources/images/artists/khalid.jpg'
-import postMalone from '../../resources/images/artists/postMalone.jpg'
-import shawn from '../../resources/images/artists/shawn.jpg'
-import doja from '../../resources/images/artists/doja.jpg'
-import megan from '../../resources/images/artists/megan.jpg'
-
-function Bios(){
+function Bios() {
     return(
-                <div className="artist_wrapper">
-                <h3>Featured Artists</h3>
+        <div className="artist_wrapper">
+            <h3>Featured Artists</h3>
                 <Slide up>
                     <div className="artist">
                         <div className="artist_image" 
                             style={{
-                                background: `url(${shawn})`,
+                                background: `url(${Shawn})`,
                                 height:`350px`,
                                 width:`50%`,
                                 position:'static'
                             }}
                         ></div>
-                            
                         <div className="artist_desc">  
                             <h2><a href="https://www.youtube.com/channel/UCAvCL8hyXjSUHKEGuUPr1BA">Shawn Mendes</a></h2>
                             <p>
@@ -32,11 +30,10 @@ function Bios(){
                             </p>
                         </div>
                     </div>   
-
                     <div className="artist">
                         <div className="artist_image"
                             style={{
-                                background: `url(${bts})`,
+                                background: `url(${Bts})`,
                                 height:`350px`,
                                 width:`50%`,
                                 position:'relative'
@@ -51,11 +48,10 @@ function Bios(){
                             </p>
                         </div>
                     </div>
-
                     <div className="artist">
                         <div className="artist_image"
                             style={{
-                                background: `url(${khalid})`,
+                                background: `url(${Khalid})`,
                                 height:`350px`,
                                 width:`50%`,
                                 position:'relative'
@@ -70,11 +66,10 @@ function Bios(){
                             </p>
                         </div>
                     </div>
-
                     <div className="artist">
                         <div className="artist_image"
                             style={{
-                                background: `url(${postMalone})`,
+                                background: `url(${PostMalone})`,
                                 height:`350px`,
                                 width:`50%`,
                                 position:'relative'
@@ -89,11 +84,10 @@ function Bios(){
                             </p>
                         </div>
                     </div>
-
                     <div className="artist">
                         <div className="artist_image"
                             style={{
-                                background: `url(${doja})`,
+                                background: `url(${Doja})`,
                                 height:`350px`,
                                 width:`50%`,
                                 position:'relative'
@@ -108,11 +102,10 @@ function Bios(){
                             </p>
                         </div>
                     </div>
-
                     <div className="artist">
                         <div className="artist_image"
                             style={{
-                                background: `url(${megan})`,
+                                background: `url(${Megan})`,
                                 height:`350px`,
                                 width:`50%`,
                                 position:'relative'
@@ -127,9 +120,8 @@ function Bios(){
                             </p>
                         </div>
                     </div>
-                    </Slide>
-                </div>  
-    
+            </Slide>
+        </div>  
     )
 }
 
