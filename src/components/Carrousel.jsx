@@ -1,17 +1,17 @@
 import React from 'react'
 import Slider from 'react-slick'
-import slide_one from '/resources/images/slide_one.jpg'
-import slide_two from '/resources/images/slide_two.jpg'
-import slide_three from '/resources/images/slide_three.jpg'
+import SlideOne from '/resources/images/slide_one.jpg'
+import SlideTwo from '/resources/images/slide_two.jpg'
+import SlideThree from '/resources/images/slide_three.jpg'
 
 function Carrousel() {
-    const settings={
+    const settings = {
         dots: false,
         infinite: true,
         autoplay: true,
         speed: 900
     }
-    
+
     return(
         <div
             className='carrousel_wrapper'
@@ -19,37 +19,37 @@ function Carrousel() {
                 height:`${window.innerHeight}px`,
                 overflow: 'hidden'
             }}
-            >
-                <Slider {...settings}>
-                    <div>
-                        <div 
-                            className='carrousel_image'
-                            style={{
-                                background: `url(${slide_one})`,
-                                height:`${window.innerHeight}px`
-                            }}
-                        ></div>
-                    </div>
-                    <div>
+        >
+            <Slider {...settings}>
+                <div>
                     <div 
                         className='carrousel_image'
                         style={{
-                            background: `url(${slide_two})`,
+                            background: `url(${SlideOne})`,
+                            height:`${window.innerHeight}px`
+                        }}
+                        ></div>
+                </div>
+                <div>
+                    <div 
+                        className='carrousel_image'
+                        style={{
+                            background: `url(${SlideTwo})`,
                             height:`${window.innerHeight}px`
                         }}
                         ></div>
                     </div>
-                    <div>
+                <div>
                     <div 
                         className='carrousel_image'
                         style={{
-                            background: `url(${slide_three})`,
+                            background: `url(${SlideThree})`,
                             height:`${window.innerHeight}px`
                         }}
-                        ></div>
-                    </div>
-                </Slider>
-            </div>
+                    ></div>
+                </div>
+            </Slider>
+        </div>
     )
 }
 
