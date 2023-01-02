@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import MyButton from '../utils/MyButton';
+import MyButton from './utils/MyButton';
 import Zoom from 'react-reveal/Zoom';
 
 class Pricing extends Component{
