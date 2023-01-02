@@ -1,11 +1,8 @@
-import React,{Component} from 'react'
+import React from 'react'
 import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
 
-import MyButton from '../Button'
-
-class Discount extends Component{
-
+function Discount() {
     state={
         discountStart:0,
         discountEnd:30
@@ -19,13 +16,11 @@ class Discount extends Component{
         }
     }
 
-    componentDidUpdate(){
+    componentDidUpdate = () => {
         setTimeout(()=>{
             this.porcentage()
         },30)
     }
-
-    render(){
         return(
             <div className='center_wrapper'>
                 <div className='discount_wrapper'>
@@ -58,7 +53,6 @@ class Discount extends Component{
                 </div>
             </div>
         )
-    }
 }
 
 export default Discount

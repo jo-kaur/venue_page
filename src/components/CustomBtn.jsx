@@ -1,9 +1,8 @@
 import React from 'react'
 import Button from '@material-ui/core/Button'
+import TicketIcon from '/src/resources/images/icons/ticket.png'
 
-import TicketIcon from '../../resources/images/icons/ticket.png'
-
-const MyButton=(props)=>{
+function CustomBtn(props) {
     return(
         <Button 
             href={props.link}
@@ -24,4 +23,4 @@ const MyButton=(props)=>{
     )
 }
 
-export default MyButton
+export default CustomBtn

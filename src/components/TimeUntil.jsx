@@ -10,7 +10,7 @@ function TimeUntil() {
         seconds:'0'
     })
 
-    getTimeUntil(deadline){
+    const getTimeUntil = (deadline) => {
         const time=Date.parse(deadline)-Date.parse(new Date())
         if(time<0){
             console.log('Date passed')
@@ -27,48 +27,47 @@ function TimeUntil() {
                 seconds
             })
         }
-
     }
 
-    componentDidMount(){
-        setInterval(()=>this.getTimeUntil(this.state.deadline), 1000)
+    componentDidMount = () => {
+        setInterval(()=> getTimeUntil(this.state.deadline), 1000)
     }
         return(
             <Slide left delay={1000}>
-                <div className="countdown_wrapper">
-                    <div className="countdown_top">
+                <div className='countdown_wrapper'>
+                    <div className='countdown_top'>
                         Event starts in
                     </div>
-                        <div className="countdown_bottom">
-                            <div className="countdown_item">
-                                <div className="countdown_time">
+                        <div className='countdown_bottom'>
+                            <div className='countdown_item'>
+                                <div className='countdown_time'>
                                     {this.state.days}
                                 </div>
-                                <div className="countdown_tag">
+                                <div className='countdown_tag'>
                                     Days
                                 </div>
                             </div>
-                            <div className="countdown_item">
-                                <div className="countdown_time">
+                            <div className='countdown_item'>
+                                <div className='countdown_time'>
                                     {this.state.hours}
                                 </div>
-                                <div className="countdown_tag">
+                                <div className='countdown_tag'>
                                     Hs
                                 </div>
                             </div>
-                            <div className="countdown_item">
-                                <div className="countdown_time">
+                            <div className='countdown_item'>
+                                <div className='countdown_time'>
                                     {this.state.minutes}
                                 </div>
-                                <div className="countdown_tag">
+                                <div className='countdown_tag'>
                                     Min
                                 </div>
                             </div>
-                            <div className="countdown_item">
-                                <div className="countdown_time">
+                            <div className='countdown_item'>
+                                <div className='countdown_time'>
                                     {this.state.seconds}
                                 </div>
-                                <div className="countdown_tag">
+                                <div className='countdown_tag'>
                                     Sec
                                 </div>
                             </div>

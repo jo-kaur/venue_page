@@ -1,5 +1,4 @@
 import React from 'react'
-/**  Import Icons  from resources/images/icons **/
 import Restaurant from '@material-ui/icons/Restaurant'
 
 function Faq() {
