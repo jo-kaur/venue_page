@@ -1,5 +1,5 @@
-import React from 'react';
-import Fade from 'react-reveal/Fade';
+import React from 'react'
+import Fade from 'react-reveal/Fade'
 
 const Footer=()=>{
     return(
@@ -22,7 +22,7 @@ const Footer=()=>{
                </div>
             </Fade>
         </footer>
-    );
-};
+    )
+}
 
-export default Footer;
+export default Footer

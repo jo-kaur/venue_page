@@ -1,27 +1,26 @@
-import React,{Component} from 'react';
-import Slide from 'react-reveal/Slide';
+import React, { useState } from 'react'
+import Slide from 'react-reveal/Slide'
 
-class TimeUntil extends Component{
-
-    state={
+function TimeUntil() {
+    const [time, setTime] = useState({
         deadline: 'Apr, 1, 2021',
         days:'0',
         hours:'0',
         minutes:'0',
         seconds:'0'
-    }
+    })
 
     getTimeUntil(deadline){
-        const time=Date.parse(deadline)-Date.parse(new Date());
+        const time=Date.parse(deadline)-Date.parse(new Date())
         if(time<0){
             console.log('Date passed')
         } else{
-            const seconds=Math.floor((time/1000)%60);
-            const minutes=Math.floor((time/1000/60)%60);
-            const hours=Math.floor((time/(1000*60*60))%24);
-            const days=Math.floor(time/(1000*60*60*24));
+            const seconds=Math.floor((time/1000)%60)
+            const minutes=Math.floor((time/1000/60)%60)
+            const hours=Math.floor((time/(1000*60*60))%24)
+            const days=Math.floor(time/(1000*60*60*24))
 
-            this.setState({
+            setTime({
                 days,
                 hours,
                 minutes,
@@ -32,10 +31,8 @@ class TimeUntil extends Component{
     }
 
     componentDidMount(){
-        setInterval(()=>this.getTimeUntil(this.state.deadline),1000)
+        setInterval(()=>this.getTimeUntil(this.state.deadline), 1000)
     }
-
-    render(){
         return(
             <Slide left delay={1000}>
                 <div className="countdown_wrapper">
@@ -78,8 +75,7 @@ class TimeUntil extends Component{
                         </div>
                 </div>
             </Slide>
-        );
-    }
+        )
 }
 
-export default TimeUntil;
+export default TimeUntil

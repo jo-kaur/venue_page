@@ -1,12 +1,12 @@
-import React from 'react';
-import Slide from 'react-reveal/Slide';
+import React from 'react'
+import Slide from 'react-reveal/Slide'
 
-import bts from '../../resources/images/artists/bts.jpg';
-import khalid from '../../resources/images/artists/khalid.jpg';
-import postMalone from '../../resources/images/artists/postMalone.jpg';
-import shawn from '../../resources/images/artists/shawn.jpg';
-import doja from '../../resources/images/artists/doja.jpg';
-import megan from '../../resources/images/artists/megan.jpg';
+import bts from '../../resources/images/artists/bts.jpg'
+import khalid from '../../resources/images/artists/khalid.jpg'
+import postMalone from '../../resources/images/artists/postMalone.jpg'
+import shawn from '../../resources/images/artists/shawn.jpg'
+import doja from '../../resources/images/artists/doja.jpg'
+import megan from '../../resources/images/artists/megan.jpg'
 
 function Bios(){
     return(
@@ -130,7 +130,7 @@ function Bios(){
                     </Slide>
                 </div>  
     
-    );
-};
+    )
+}
 
-export default Bios;
+export default Bios

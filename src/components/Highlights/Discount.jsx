@@ -1,8 +1,8 @@
-import React,{Component} from 'react';
-import Fade from 'react-reveal/Fade';
-import Slide from 'react-reveal/Slide';
+import React,{Component} from 'react'
+import Fade from 'react-reveal/Fade'
+import Slide from 'react-reveal/Slide'
 
-import MyButton from '../utils/MyButton';
+import MyButton from '../Button'
 
 class Discount extends Component{
 
@@ -27,28 +27,28 @@ class Discount extends Component{
 
     render(){
         return(
-            <div className="center_wrapper">
-                <div className="discount_wrapper">
+            <div className='center_wrapper'>
+                <div className='discount_wrapper'>
 
                     <Fade 
                     onReveal={()=>this.porcentage()}
                     >
-                        <div className="discount_porcentage">
+                        <div className='discount_porcentage'>
                             <span>{this.state.discountStart}%</span>
                             <span>OFF</span>
                         </div>
                     </Fade>
 
                     <Slide right>
-                        <div className="discount_description">
+                        <div className='discount_description'>
                             <h3>Purchase tickets before 1st APRIL</h3>
                             <p> Be there to experience the history making Barclay Bash. With limited seating, get your hands on these tickets now. </p>
 
                             <MyButton
-                                text="Purchase tickets"
-                                bck="#ffa800"
-                                color="#ffffff"
-                                link="http://google.com"
+                                text='Purchase tickets'
+                                bck='#ffa800'
+                                color='#ffffff'
+                                link='http://google.com'
                             />
 
                         </div>
@@ -57,8 +57,8 @@ class Discount extends Component{
 
                 </div>
             </div>
-        );
+        )
     }
 }
 
-export default Discount;
+export default Discount
