@@ -37,12 +37,12 @@ function Header() {
                 }}
             >
             <Toolbar> 
-            <div className='header_logo'>
-                <div className='font_righteous header_logo_venue'>
+            <header className='header_logo'>
+                <h1 className='font_righteous header_logo_venue'>
                     Barclays Bash
-                </div>
-                <div className='header_logo_title'>Concerts happening in the stadium</div>
-            </div>
+                </h1>
+                <h2 className='header_logo_title'>Concerts happening in the stadium</h2>
+            </header>
             <IconButton
                 aria-label='Menu'
                 color='inherit'
