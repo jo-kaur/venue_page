@@ -23,7 +23,7 @@ function SideDrawer(props) {
         >
             <List component='nav'>
                 <ListItem button onClick={()=>scrollToElement('featured')}>
-                    Event starts in
+                    Home
                 </ListItem>
                 <ListItem button onClick={()=>scrollToElement('venuenfo')}>
                     Venue Info
