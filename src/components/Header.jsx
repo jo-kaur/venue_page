@@ -31,7 +31,7 @@ function Header() {
         <AppBar
             position='fixed'
             style={{
-                    backgroundColor: this.state.headerShow ? '#240090' : 'transparent',
+                    backgroundColor: showHeader ? '#240090' : 'transparent',
                     boxShadow: 'none',
                     padding: '10px 0px'
                 }}
