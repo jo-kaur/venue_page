@@ -2,18 +2,20 @@ import React, { useState, useEffect } from 'react'
 import Slide from 'react-reveal/Slide'
 
 function TimeUntil() {
-    const [time, setTime] = useState({
+    const initialTime = {
         deadline: 'Apr, 1, 2021',
         days:'0',
         hours:'0',
         minutes:'0',
         seconds:'0'
-    })
+    }
+
+    const [time, setTime] = useState(initialTime)
 
     const getTimeUntil = (deadline) => {
         const time = Date.parse(deadline) - Date.parse(new Date())
         
-        if(time < 0){
+        if(time < 0) {
             console.log('Date passed')
         } else {
             const seconds = Math.floor((time/1000) % 60)
@@ -31,10 +33,10 @@ function TimeUntil() {
     }
 
     useEffect(() => {
-        const interval = setInterval(() => getTimeUntil(deadline), 1000)
+        const interval = setInterval(() => getTimeUntil(time.deadline), 1000)
 
         return () => clearInterval(interval)
-    }, [])
+    }, [time.deadline])
     
     return(
         <Slide left delay={1000}>
@@ -45,7 +47,7 @@ function TimeUntil() {
                 <div className='countdown_bottom'>
                     <div className='countdown_item'>
                         <div className='countdown_time'>
-                            {days}
+                            {time.days}
                         </div>
                         <div className='countdown_tag'>
                             Days
@@ -53,7 +55,7 @@ function TimeUntil() {
                     </div>
                     <div className='countdown_item'>
                         <div className='countdown_time'>
-                            {hours}
+                            {time.hours}
                         </div>
                         <div className='countdown_tag'>
                             Hs
@@ -61,7 +63,7 @@ function TimeUntil() {
                     </div>
                     <div className='countdown_item'>
                         <div className='countdown_time'>
-                            {minutes}
+                            {time.minutes}
                         </div>
                         <div className='countdown_tag'>
                             Min
@@ -69,7 +71,7 @@ function TimeUntil() {
                     </div>
                     <div className='countdown_item'>
                         <div className='countdown_time'>
-                            {seconds}
+                            {time.seconds}
                         </div>
                         <div className='countdown_tag'>
                             Sec

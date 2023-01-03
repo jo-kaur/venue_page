@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
+import CustomBtn from '../CustomBtn'
 
 function Discount() {
     const [discountStart, setDiscountStart] = useState(0)
@@ -32,8 +33,8 @@ function Discount() {
                     <Slide right>
                         <div className='discount_description'>
                             <h3>Purchase tickets before 1st APRIL</h3>
-                            <p> Be there to experience the history making Barclay Bash. With limited seating, get your hands on these tickets now. </p>
-                                <MyButton
+                            <p> Be there to experience the history making Barclay Bash. With limited seating, get your hands on these tickets now.</p>
+                                <CustomBtn
                                     text='Purchase tickets'
                                     bck='#ffa800'
                                     color='#ffffff'
