@@ -5,10 +5,9 @@ import CustomBtn from '../CustomBtn'
 
 function Discount() {
     const [discountStart, setDiscountStart] = useState(0)
-    const [discountEnd, setDiscountEnd] = useState(30)
 
     const percentage = () => {
-        if(discountStart < discountEnd) {
+        if(discountStart < 30) {
             setDiscountStart(discountStart + 1)
         }
     }
