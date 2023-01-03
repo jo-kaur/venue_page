@@ -9,10 +9,6 @@ function Header() {
     const [drawerOpen, setDrawerOpen] = useState(false)
     const [showHeader, setShowHeader] = useState(false)
 
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll)
-    }, [])
-
     const handleScroll = () => {
         if(window.scrollY > 0){
             setShowHeader(true)
@@ -20,6 +16,10 @@ function Header() {
            setShowHeader(false)
         }
     }
+    
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll)
+    }, [])
 
     const toggleDrawer = (value) => {
         setDrawerOpen(value)
