@@ -5,8 +5,7 @@ import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 
 function SideDrawer(props) {
-
-    const scrollToElement=(element)=>{
+    const scrollToElement = (element) => {
         scroller.scrollTo(element, {
             duration:1500,
             delay: 100,
@@ -26,27 +25,21 @@ function SideDrawer(props) {
                 <ListItem button onClick={()=>scrollToElement('featured')}>
                     Event starts in
                 </ListItem>
-
                 <ListItem button onClick={()=>scrollToElement('venuenfo')}>
                     Venue Info
                 </ListItem>
-
                 <ListItem button onClick={()=>scrollToElement('highlights')}>
                     Highlights
                 </ListItem>
-
                 <ListItem button onClick={()=>scrollToElement('pricing')}>
                     Pricing
                 </ListItem>
-
                 <ListItem button onClick={()=>scrollToElement('artistBios')}>
                     Featured Artists
                 </ListItem>
-
                 <ListItem button onClick={()=>scrollToElement('location')}>
                     Location
                 </ListItem>
-
                 <ListItem button onClick={()=>scrollToElement('faq')}>
                     FAQ
                 </ListItem>
