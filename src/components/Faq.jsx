@@ -4,7 +4,7 @@ import Restaurant from '@material-ui/icons/Restaurant'
 function Faq() {
   return(
     <div>
-      <h1 className='faq-title'>FAQ</h1> 
+      <h1 className='faq-title'>Frequently Asked Questions</h1> 
        <div className='faqFormat'>
         <h2 className='question'>How can I get to the entrance of Barclay's Center?</h2>
           <h3 className='question-section'>Long Island Railroad</h3>
