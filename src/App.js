@@ -1,6 +1,5 @@
 import React from 'react'
 import { Element } from 'react-scroll'
-import './resources/styles.css'
 import Header from './components/Header'
 import Featured from './components/Featured'
 import VenueNfo from './components/venueNfo/VenueNfo'
@@ -11,10 +10,11 @@ import Bios from './components/Bios'
 import Location from './components/Location'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
+import './styles.css'
 
 function App() {
     return (
-      <div className='App' style={{height:'1500px',background:'cornflowerblue'}}>
+      <div className='App'>
         <Header/>
         <Element name='featured'>
           <Featured/>

@@ -19,7 +19,7 @@ function SideDrawer(props) {
         <Drawer
             anchor='right'
             open={props.open}
-            onClose={()=>props.onClose(false)}
+            onClose={() => props.onClose(false)}
         >
             <List component='nav'>
                 <ListItem button onClick={()=>scrollToElement('featured')}>

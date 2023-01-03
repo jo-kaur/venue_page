@@ -7,8 +7,7 @@ function Description() {
             <div className='center_wrapper'>
                 <h2>Highlights</h2>
                 <div className='highlight_description'>
-                    {/* PUT HIGHLIGHT INFORMATION FOR THE SITE HERE */}
-                    Space for description
+                    Special Offers
                 </div>
             </div>
         </Fade>

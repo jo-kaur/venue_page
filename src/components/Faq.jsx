@@ -25,7 +25,6 @@ function Faq() {
         <h2 className='question'>What are some nearby restaurants?</h2>
         </div>
           <ul>
-              <center>
                 <a href='https://www.shakeshack.com/location/flatbush-ave-brooklyn/'>
                   <button class='restaurant-btn' size='sm'>Shake Shack <Restaurant></Restaurant></button>
                 </a>
@@ -35,7 +34,6 @@ function Faq() {
                 <a href='https://www.wasan-ny.com/'>
                   <button class='restaurant-btn'>Wasan NY <Restaurant></Restaurant></button>
                 </a>
-              </center>
            </ul>
   </div>
   )
