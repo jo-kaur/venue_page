@@ -12,11 +12,12 @@ function Discount() {
         }
     }
 
-    // componentDidUpdate 
     useEffect(() => {
-        setTimeout(()=>{
+        const timer = setTimeout(()=>{
             percentage()
         }, 30)
+
+        return () => clearTimeout(timer)
     }, [])
 
     return(
