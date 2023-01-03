@@ -16,9 +16,9 @@ function TimeUntil() {
         if(time < 0){
             console.log('Date passed')
         } else {
-            const seconds = Math.floor((time/1000)%60)
-            const minutes = Math.floor((time/1000/60)%60)
-            const hours = Math.floor((time/(1000*60*60))%24)
+            const seconds = Math.floor((time/1000) % 60)
+            const minutes = Math.floor((time/1000/60) % 60)
+            const hours = Math.floor((time/(1000*60*60)) % 24)
             const days = Math.floor(time/(1000*60*60*24))
 
             setTime({
@@ -31,8 +31,10 @@ function TimeUntil() {
     }
 
     useEffect(() => {
-        setInterval(() => getTimeUntil(deadline), 1000)
-    })
+        const interval = setInterval(() => getTimeUntil(deadline), 1000)
+
+        return () => clearInterval(interval)
+    }, [])
     
     return(
         <Slide left delay={1000}>
