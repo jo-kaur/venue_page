@@ -1,14 +1,16 @@
 import React from 'react'
 import { Element } from 'react-scroll'
 import './resources/styles.css'
+import Header from './components/Header'
 import Featured from './components/Featured'
 import VenueNfo from './components/venueNfo/VenueNfo'
 import Calendar from './components/Calendar'
-import Highlight from './components/highlights/Highlight'
+import Highlights from './components/highlights/Highlights'
 import Pricing from './components/Pricing'
 import Bios from './components/Bios'
 import Location from './components/Location'
 import Faq from './components/Faq'
+import Footer from './components/Footer'
 
 function App() {
     return (
@@ -24,7 +26,7 @@ function App() {
           <Calendar/>
         </Element>
         <Element name='highlights'>
-          <Highlight/>
+          <Highlights/>
         </Element>
         <Element name='pricing'>
           <Pricing/>

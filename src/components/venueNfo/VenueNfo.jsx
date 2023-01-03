@@ -1,7 +1,7 @@
 import React from 'react'
 import Zoom from 'react-reveal/Zoom'
-import CalenderIcon from './resources/icons/calender.png'
-import LocationIcon from './resources/icons/location.png'
+import CalenderIcon from '../../resources/icons/calender.png'
+import LocationIcon from '../../resources/icons/location.png'
 
 function VenueNfo() {
     return(

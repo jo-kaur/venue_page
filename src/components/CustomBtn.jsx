@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '@material-ui/core/Button'
-import TicketIcon from '/src/resources/images/icons/ticket.png'
+import TicketIcon from '../resources/icons/ticket.png'
 
 function CustomBtn(props) {
     return(

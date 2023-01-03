@@ -1,8 +1,8 @@
 import React from 'react'
 import Slider from 'react-slick'
-import SlideOne from '/resources/images/slide_one.jpg'
-import SlideTwo from '/resources/images/slide_two.jpg'
-import SlideThree from '/resources/images/slide_three.jpg'
+import SlideOne from '../resources/slides/slide_one.jpg'
+import SlideTwo from '../resources/slides/slide_two.jpg'
+import SlideThree from '../resources/slides/slide_three.jpg'
 
 function Carrousel() {
     const settings = {

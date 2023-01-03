@@ -1,11 +1,11 @@
 import React from 'react'
 import Slide from 'react-reveal/Slide'
-import Bts from '../../resources/images/artists/bts.jpg'
-import Khalid from '../../resources/images/artists/khalid.jpg'
-import PostMalone from '../../resources/images/artists/postMalone.jpg'
-import Shawn from '../../resources/images/artists/shawn.jpg'
-import Doja from '../../resources/images/artists/doja.jpg'
-import Megan from '../../resources/images/artists/megan.jpg'
+import Bts from '../resources/artists/bts.jpg'
+import Khalid from '../resources/artists/khalid.jpg'
+import PostMalone from '../resources/artists/postMalone.jpg'
+import Shawn from '../resources/artists/shawn.jpg'
+import Doja from '../resources/artists/doja.jpg'
+import Megan from '../resources/artists/megan.jpg'
 
 function Bios() {
     return(
