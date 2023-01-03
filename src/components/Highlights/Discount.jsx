@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
 
@@ -12,12 +12,13 @@ function Discount() {
         }
     }
 
-    componentDidUpdate = () => {
+    // componentDidUpdate 
+    useEffect(() => {
         setTimeout(()=>{
             percentage()
-        },30)
-    }
-    
+        }, 30)
+    }, [])
+
     return(
         <div className='center_wrapper'>
             <div className='discount_wrapper'>

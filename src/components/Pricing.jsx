@@ -1,4 +1,4 @@
-import React,{Component} from 'react'
+import React from 'react'
 import CustomBtn from './CustomBtn'
 import Zoom from 'react-reveal/Zoom'
 
