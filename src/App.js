@@ -10,7 +10,7 @@ import Bios from './components/Bios'
 import Location from './components/Location'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
-import './index.css'
+import './styles.css'
 
 function App() {
     return (
